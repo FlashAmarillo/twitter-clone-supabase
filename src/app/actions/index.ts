@@ -1,0 +1,1 @@
+export { addPost } from './add-post-action'
