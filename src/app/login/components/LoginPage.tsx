@@ -21,7 +21,7 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen flex flex-col md:flex-row">
       {/* Left Section */}
-      <div className="md:w-1/2 bg-gradient-to-br from-blue-400 to-blue-600 p-8 flex flex-col justify-center items-center text-white">
+      <div className="md:w-1/2 bg-linear-to-br from-blue-400 to-blue-600 p-8 flex flex-col justify-center items-center text-white">
         <div className="mb-8">
           <Bird className="w-20 h-20 text-white" />
         </div>
@@ -30,11 +30,11 @@ export default function LoginPage() {
           Connect with friends and join the world's conversation
         </p>
         <div className="mt-12 space-y-4 text-center">
-          <div className="p-4 bg-white/10 rounded-lg backdrop-blur-sm">
+          <div className="p-4 bg-white/10 rounded-lg backdrop-blur-xs">
             <h3 className="font-semibold">Real-time Updates</h3>
             <p>Stay informed with live tweets</p>
           </div>
-          <div className="p-4 bg-white/10 rounded-lg backdrop-blur-sm">
+          <div className="p-4 bg-white/10 rounded-lg backdrop-blur-xs">
             <h3 className="font-semibold">Global Community</h3>
             <p>Connect with millions worldwide</p>
           </div>

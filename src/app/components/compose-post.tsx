@@ -40,7 +40,7 @@ export function ComposePost({
           role="textbox"
           name='post'
           rows={4}
-          className='w-full max-w-[540px] text-xl font-sans bg-black text-white border-none outline-none px-4 py-3 resize-none placeholder-gray-400'
+          className='w-full max-w-[540px] text-xl font-sans bg-black text-white border-none outline-hidden px-4 py-3 resize-none placeholder-gray-400'
           placeholder='¡¿Qué está pensando?!'
           disabled={isPending}
         ></textarea>
